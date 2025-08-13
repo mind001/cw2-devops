@@ -1,0 +1,91 @@
+{
+    "ConfigVersion": 3,
+    "Driver": {
+        "IPAddress": "",
+        "MachineName": "minikube",
+        "SSHUser": "",
+        "SSHPort": 0,
+        "SSHKeyPath": "/home/ubuntu/.minikube/machines/minikube/id_rsa",
+        "StorePath": "/home/ubuntu/.minikube",
+        "SwarmMaster": false,
+        "SwarmHost": "",
+        "SwarmDiscovery": "",
+        "URL": "",
+        "NodeConfig": {
+            "ClusterName": "minikube",
+            "MachineName": "minikube",
+            "CPU": 2,
+            "Memory": 2800,
+            "StorePath": "/home/ubuntu/.minikube",
+            "OCIBinary": "docker",
+            "ImageDigest": "gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b",
+            "Mounts": [],
+            "APIServerPort": 8443,
+            "PortMappings": null,
+            "Envs": null,
+            "KubernetesVersion": "v1.33.1",
+            "ContainerRuntime": "docker",
+            "Network": "",
+            "Subnet": "",
+            "StaticIP": "",
+            "ExtraArgs": [],
+            "ListenAddress": "",
+            "GPUs": ""
+        },
+        "OCIBinary": "docker"
+    },
+    "DriverName": "docker",
+    "HostOptions": {
+        "Driver": "",
+        "Memory": 0,
+        "Disk": 0,
+        "EngineOptions": {
+            "ArbitraryFlags": null,
+            "Dns": null,
+            "GraphDir": "",
+            "Env": null,
+            "Ipv6": false,
+            "InsecureRegistry": [
+                "10.96.0.0/12"
+            ],
+            "Labels": null,
+            "LogLevel": "",
+            "StorageDriver": "",
+            "SelinuxEnabled": false,
+            "TlsVerify": false,
+            "RegistryMirror": [],
+            "InstallURL": "https://get.docker.com"
+        },
+        "SwarmOptions": {
+            "IsSwarm": false,
+            "Address": "",
+            "Discovery": "",
+            "Agent": false,
+            "Master": false,
+            "Host": "",
+            "Image": "",
+            "Strategy": "",
+            "Heartbeat": 0,
+            "Overcommit": 0,
+            "ArbitraryFlags": null,
+            "ArbitraryJoinFlags": null,
+            "Env": null,
+            "IsExperimental": false
+        },
+        "AuthOptions": {
+            "CertDir": "/home/ubuntu/.minikube",
+            "CaCertPath": "/home/ubuntu/.minikube/certs/ca.pem",
+            "CaPrivateKeyPath": "/home/ubuntu/.minikube/certs/ca-key.pem",
+            "CaCertRemotePath": "",
+            "ServerCertPath": "/home/ubuntu/.minikube/machines/server.pem",
+            "ServerKeyPath": "/home/ubuntu/.minikube/machines/server-key.pem",
+            "ClientKeyPath": "/home/ubuntu/.minikube/certs/key.pem",
+            "ServerCertRemotePath": "",
+            "ServerKeyRemotePath": "",
+            "ClientCertPath": "/home/ubuntu/.minikube/certs/cert.pem",
+            "ServerCertSANs": null,
+            "StorePath": "/home/ubuntu/.minikube"
+        }
+    },
+    "Name": "minikube"
+}
