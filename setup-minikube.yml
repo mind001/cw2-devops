@@ -1,0 +1,12 @@
+- name: Install Minikube
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Download minikube package
+      get_url:
+        url: https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+        dest: /tmp/minikube_latest_amd64.deb
+
+    - name: Install minikube
+      apt:
+        deb: /tmp/minikube_latest_amd64.deb
